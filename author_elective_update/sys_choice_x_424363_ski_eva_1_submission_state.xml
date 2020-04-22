@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="state" table="x_424363_ski_eva_1_submission" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_424363_ski_eva_1_submission</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-05 04:18:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3fe95d55072540101531f7108c1ed030</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-05 04:18:44</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Submitted</label>
+            <language>en</language>
+            <name>x_424363_ski_eva_1_submission</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-05 04:19:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fa2a1d15072540101531f7108c1ed001</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-05 04:19:15</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reviewed</label>
+            <language>en</language>
+            <name>x_424363_ski_eva_1_submission</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-05 04:20:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>534a1d15072540101531f7108c1ed020</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-05 04:20:01</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Completed</label>
+            <language>en</language>
+            <name>x_424363_ski_eva_1_submission</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-05 04:20:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>326ad955072540101531f7108c1ed0d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-05 04:20:20</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_424363_ski_eva_1_submission</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-05 04:18:44</sys_created_on>
+            <sys_id>761a9955072540101531f7108c1ed0b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="Skill Evaluation 1" source="x_424363_ski_eva_1">f8037c7c072900101531f7108c1ed08f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Skill Evaluation 1">f8037c7c072900101531f7108c1ed08f</sys_scope>
+            <sys_update_name>sys_choice_x_424363_ski_eva_1_submission_state</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-05 04:18:44</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">f8037c7c072900101531f7108c1ed08f</application>
+        <file_path/>
+        <instance_id>67c20cabdbcaf7c807072f17d4961967</instance_id>
+        <instance_name>dev88415</instance_name>
+        <name>sys_choice_x_424363_ski_eva_1_submission_state</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="state" table="x_424363_ski_eva_1_submission" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint/><inactive>false</inactive><label>Draft</label><language>en</language><name>x_424363_ski_eva_1_submission</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-05 04:18:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3fe95d55072540101531f7108c1ed030</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-05 04:18:44</sys_updated_on><value>0</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint/><inactive>false</inactive><label>Submitted</label><language>en</language><name>x_424363_ski_eva_1_submission</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-05 04:19:15</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fa2a1d15072540101531f7108c1ed001</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-05 04:19:15</sys_updated_on><value>1</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint/><inactive>false</inactive><label>Reviewed</label><language>en</language><name>x_424363_ski_eva_1_submission</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-05 04:20:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>534a1d15072540101531f7108c1ed020</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-05 04:20:01</sys_updated_on><value>2</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>state</element><hint/><inactive>false</inactive><label>Completed</label><language>en</language><name>x_424363_ski_eva_1_submission</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-05 04:20:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>326ad955072540101531f7108c1ed0d5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-05 04:20:20</sys_updated_on><value>3</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>state</element><name>x_424363_ski_eva_1_submission</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-05 04:18:44</sys_created_on><sys_id>761a9955072540101531f7108c1ed0b3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>state</sys_name><sys_package display_value="Skill Evaluation 1" source="x_424363_ski_eva_1">f8037c7c072900101531f7108c1ed08f</sys_package><sys_policy/><sys_scope display_value="Skill Evaluation 1">f8037c7c072900101531f7108c1ed08f</sys_scope><sys_update_name>sys_choice_x_424363_ski_eva_1_submission_state</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-05 04:18:44</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>-869477123</payload_hash>
+        <record_name>Submission.State</record_name>
+        <reverted_from/>
+        <source>1fd056c72feb4010c109e83df699b6d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-19 04:53:15</sys_created_on>
+        <sys_id>08f0dac72feb4010c109e83df699b6d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170f1236a7c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-19 04:53:15</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>9a7a99553425401074ba06203bf8d65d</update_guid>
+        <update_guid_history>9a7a99553425401074ba06203bf8d65d:-869477123,e96a1595bf254010a677dff89a4c82fb:634509508,a23a91956825401059e1f470a3ee441e:-646399792,f21a9955f0254010285f4e91cd8d44b5:503690563</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-19 04:59:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>ccf0dac72feb4010c109e83df699b6d0</sys_id>
+        <sys_metadata>ccf0dac72feb4010c109e83df699b6d0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_424363_ski_eva_1">f8037c7c072900101531f7108c1ed08f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">f8037c7c072900101531f7108c1ed08f</sys_scope>
+        <sys_scope_delete display_value="">bd84fb5ed38646699a5783f3eddfd7b9</sys_scope_delete>
+        <sys_update_name>sys_choice_x_424363_ski_eva_1_submission_state</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_424363_ski_eva_1_submission_state">08f0dac72feb4010c109e83df699b6d4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-19 04:59:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>certificate</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>vvuong2</sys_created_by>
+        <sys_created_on>2020-03-05 03:51:51</sys_created_on>
+        <sys_id>695c752edb1f4810d606e04a489619b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>certificate</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_424363_ski_eva_1">f8037c7c072900101531f7108c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">f8037c7c072900101531f7108c1ed08f</sys_scope>
+        <sys_update_name>sys_ui_policy_action_695c752edb1f4810d606e04a489619b0</sys_update_name>
+        <sys_updated_by>vvuong2</sys_updated_by>
+        <sys_updated_on>2020-03-05 03:51:51</sys_updated_on>
+        <table>x_424363_ski_eva_1_cert_acquisition</table>
+        <ui_policy display_value="[AVG] Cert Acquisition Mandatory fields">a574a956dbdb0810d606e04a489619ac</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

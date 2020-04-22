@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_424363_ski_eva_1_submission</collection>
+        <condition>!current.isNewRecord()</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Remove Skill Assessments and Certs</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[/*
+ * Description:
+ *  Delete whole related data from 'skill assessment' tables
+ *  Delete whole related data from 'certificate' tables
+ *
+ */
+(function executeRule(current, previous /*null when async*/ ) {
+	//Get all skill assessments of submissions
+    var grSkillAssessment = new GlideRecord('x_424363_ski_eva_1_skill_assessment');
+    grSkillAssessment.addQuery('submission', current.sys_id);
+	grSkillAssessment.query();
+	//Delete all records
+	grSkillAssessment.deleteMultiple();
+	
+	//Get all certificate acquisitions of submission
+    var grCertAcquisition = new GlideRecord('x_424363_ski_eva_1_cert_acquisition');
+    grCertAcquisition.addQuery('submission', current.sys_id);
+	grCertAcquisition.query();
+	//Delete all records
+	grCertAcquisition.deleteMultiple();
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-12-10 05:51:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>377b87b2072540101531f7108c1ed057</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Remove Skill Assessments and Certs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Skill Evaluation" source="x_424363_ski_eva_1">f8037c7c072900101531f7108c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">f8037c7c072900101531f7108c1ed08f</sys_scope>
+        <sys_update_name>sys_script_377b87b2072540101531f7108c1ed057</sys_update_name>
+        <sys_updated_by>htruong20</sys_updated_by>
+        <sys_updated_on>2020-02-21 06:30:45</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=377b87b2072540101531f7108c1ed057"/>
+</record_update>

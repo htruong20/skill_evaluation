@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="proficiency_level" table="x_424363_ski_eva_1_skill_assessment" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>proficiency_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>N/A</label>
+            <language>en</language>
+            <name>x_424363_ski_eva_1_skill_assessment</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-04 08:15:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f266898d072500101531f7108c1ed074</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-04 08:15:53</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>proficiency_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - Conceptual/Trained</label>
+            <language>en</language>
+            <name>x_424363_ski_eva_1_skill_assessment</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-04 08:16:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>68d6498d072500101531f7108c1ed0a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-04 08:16:36</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>proficiency_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 – Experienced</label>
+            <language>en</language>
+            <name>x_424363_ski_eva_1_skill_assessment</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-04 08:17:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc27c58d072500101531f7108c1ed015</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-04 08:17:34</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>proficiency_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 – Expert</label>
+            <language>en</language>
+            <name>x_424363_ski_eva_1_skill_assessment</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-04 08:18:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b637c58d072500101531f7108c1ed01c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-04 08:18:05</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>proficiency_level</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4 – Guru</label>
+            <language>en</language>
+            <name>x_424363_ski_eva_1_skill_assessment</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-04 08:18:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a45741cd072500101531f7108c1ed097</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-04 08:18:32</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>proficiency_level</element>
+            <name>x_424363_ski_eva_1_skill_assessment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-04 08:15:53</sys_created_on>
+            <sys_id>07c6cd8d072500101531f7108c1ed0ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>proficiency_level</sys_name>
+            <sys_package display_value="Skill Evaluation 1" source="x_424363_ski_eva_1">f8037c7c072900101531f7108c1ed08f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Skill Evaluation 1">f8037c7c072900101531f7108c1ed08f</sys_scope>
+            <sys_update_name>sys_choice_x_424363_ski_eva_1_skill_assessment_proficiency_level</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-04 08:15:53</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">f8037c7c072900101531f7108c1ed08f</application>
+        <file_path/>
+        <instance_id>67c20cabdbcaf7c807072f17d4961967</instance_id>
+        <instance_name>dev88415</instance_name>
+        <name>sys_choice_x_424363_ski_eva_1_skill_assessment_proficiency_level</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="proficiency_level" table="x_424363_ski_eva_1_skill_assessment" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>proficiency_level</element><hint/><inactive>false</inactive><label>N/A</label><language>en</language><name>x_424363_ski_eva_1_skill_assessment</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-04 08:15:53</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f266898d072500101531f7108c1ed074</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-04 08:15:53</sys_updated_on><value>0</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>proficiency_level</element><hint/><inactive>false</inactive><label>1 - Conceptual/Trained</label><language>en</language><name>x_424363_ski_eva_1_skill_assessment</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-04 08:16:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>68d6498d072500101531f7108c1ed0a6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-04 08:16:36</sys_updated_on><value>1</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>proficiency_level</element><hint/><inactive>false</inactive><label>2 – Experienced</label><language>en</language><name>x_424363_ski_eva_1_skill_assessment</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-04 08:17:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fc27c58d072500101531f7108c1ed015</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-04 08:17:34</sys_updated_on><value>2</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>proficiency_level</element><hint/><inactive>false</inactive><label>3 – Expert</label><language>en</language><name>x_424363_ski_eva_1_skill_assessment</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-04 08:18:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b637c58d072500101531f7108c1ed01c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-04 08:18:05</sys_updated_on><value>3</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>proficiency_level</element><hint/><inactive>false</inactive><label>4 – Guru</label><language>en</language><name>x_424363_ski_eva_1_skill_assessment</name><sequence/><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-04 08:18:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a45741cd072500101531f7108c1ed097</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-04 08:18:32</sys_updated_on><value>4</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>proficiency_level</element><name>x_424363_ski_eva_1_skill_assessment</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-12-04 08:15:53</sys_created_on><sys_id>07c6cd8d072500101531f7108c1ed0ea</sys_id><sys_mod_count>0</sys_mod_count><sys_name>proficiency_level</sys_name><sys_package display_value="Skill Evaluation 1" source="x_424363_ski_eva_1">f8037c7c072900101531f7108c1ed08f</sys_package><sys_policy/><sys_scope display_value="Skill Evaluation 1">f8037c7c072900101531f7108c1ed08f</sys_scope><sys_update_name>sys_choice_x_424363_ski_eva_1_skill_assessment_proficiency_level</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-12-04 08:15:53</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>1142945713</payload_hash>
+        <record_name>Skill Assessment.Proficiency level</record_name>
+        <reverted_from/>
+        <source>1fd056c72feb4010c109e83df699b6d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-19 04:53:14</sys_created_on>
+        <sys_id>80f0dac72feb4010c109e83df699b6cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170f1236a410000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-19 04:53:14</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>f16785cd0a250010ca0ff766ff7c86d3</update_guid>
+        <update_guid_history>f16785cd0a250010ca0ff766ff7c86d3:1142945713,d347c18d2e2500105fe3ff4ed83b79f4:-1499674657,3f27c58d5d2500107f2133dcc78c371a:-1373709998,a9f6c18d772500102db495480ba227ef:920008283,43c6cd8d822500105639ab21e05e04ec:-1941371938</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-19 04:59:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>84f0dac72feb4010c109e83df699b6ca</sys_id>
+        <sys_metadata>84f0dac72feb4010c109e83df699b6ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>proficiency_level</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_424363_ski_eva_1">f8037c7c072900101531f7108c1ed08f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">f8037c7c072900101531f7108c1ed08f</sys_scope>
+        <sys_scope_delete display_value="">bd84fb5ed38646699a5783f3eddfd7b9</sys_scope_delete>
+        <sys_update_name>sys_choice_x_424363_ski_eva_1_skill_assessment_proficiency_level</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_424363_ski_eva_1_skill_assessment_proficiency_level">80f0dac72feb4010c109e83df699b6cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-19 04:59:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

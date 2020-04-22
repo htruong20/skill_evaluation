@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Cert Acquisition" max_length="40" name="x_424363_ski_eva_1_cert_acquisition" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" display="true" label="Certificate" max_length="32" name="certificate" reference="x_424363_ski_eva_1_certificate" type="reference"/>
+        <element label="Certification number" max_length="255" name="certification_number" type="string"/>
+        <element label="Certified date" max_length="40" name="certified_date" type="glide_date"/>
+        <element label="Expired Date" max_length="40" name="expired_date" read_only="true" type="glide_date"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="ServiceNow release" max_length="255" name="servicenow_release" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Paris" sequence="100" value="paris"/>
+                <element inactive_on_update="false" label="Orlando" sequence="200" value="orlando"/>
+                <element inactive_on_update="false" label="New York" sequence="300" value="new_york"/>
+                <element inactive_on_update="false" label="Madrid " sequence="400" value="madrid"/>
+                <element inactive_on_update="false" label="London" sequence="500" value="london"/>
+                <element inactive_on_update="false" label="Kingston" sequence="600" value="kingston"/>
+                <element inactive_on_update="false" label="Jakarta" sequence="700" value="jakarta"/>
+                <element inactive_on_update="false" label="Istanbul" sequence="800" value="istanbul"/>
+                <element inactive_on_update="false" label="Helsinki" sequence="900" value="helsinki"/>
+                <element inactive_on_update="false" label="Geneva" sequence="1000" value="geneva"/>
+                <element inactive_on_update="false" label="Fuji" sequence="1100" value="fuji"/>
+                <element inactive_on_update="false" label="Eureka" sequence="1200" value="eureka"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Submission" max_length="32" name="submission" read_only="true" reference="x_424363_ski_eva_1_submission" reference_floats="true" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="certificate"/>
+        </index>
+        <index name="index2">
+            <element name="submission"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="servicenow_release" table="x_424363_ski_eva_1_cert_acquisition" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>servicenow_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Paris</label>
+            <language>en</language>
+            <name>x_424363_ski_eva_1_cert_acquisition</name>
+            <sequence>100</sequence>
+            <sys_created_by>htran96</sys_created_by>
+            <sys_created_on>2020-03-16 04:32:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a52e6e8edbeb0850d606e04a4896196e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>htran96</sys_updated_by>
+            <sys_updated_on>2020-03-16 04:33:35</sys_updated_on>
+            <value>paris</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>servicenow_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Orlando</label>
+            <language>en</language>
+            <name>x_424363_ski_eva_1_cert_acquisition</name>
+            <sequence>200</sequence>
+            <sys_created_by>htran96</sys_created_by>
+            <sys_created_on>2020-03-16 04:32:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>117fa602db2f0850d606e04a48961980</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>htran96</sys_updated_by>
+            <sys_updated_on>2020-03-16 04:33:39</sys_updated_on>
+            <value>orlando</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>servicenow_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New York</label>
+            <language>en</language>
+            <name>x_424363_ski_eva_1_cert_acquisition</name>
+            <sequence>300</sequence>
+            <sys_created_by>htran96</sys_created_by>
+            <sys_created_on>2020-03-16 04:34:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0cafa602db2f0850d606e04a48961955</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>htran96</sys_updated_by>
+            <sys_updated_on>2020-03-16 04:34:51</sys_updated_on>
+            <value>new_york</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>servicenow_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Madrid </label>
+            <language>en</language>
+            <name>x_424363_ski_eva_1_cert_acquisition</name>
+            <sequence>400</sequence>
+            <sys_created_by>htran96</sys_created_by>
+            <sys_created_on>2020-03-16 04:35:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>62efa602db2f0850d606e04a4896195b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>htran96</sys_updated_by>
+            <sys_updated_on>2020-03-16 04:35:26</sys_updated_on>
+            <value>madrid</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>servicenow_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>London</label>
+            <language>en</language>
+            <name>x_424363_ski_eva_1_cert_acquisition</name>
+            <sequence>500</sequence>
+            <sys_created_by>htran96</sys_created_by>
+            <sys_created_on>2020-03-16 04:41:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3517682db2f0850d606e04a489619f7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>htran96</sys_updated_by>
+            <sys_updated_on>2020-03-16 04:41:21</sys_updated_on>
+            <value>london</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>servicenow_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kingston</label>
+            <language>en</language>
+            <name>x_424363_ski_eva_1_cert_acquisition</name>
+            <sequence>600</sequence>
+            <sys_created_by>htran96</sys_created_by>
+            <sys_created_on>2020-03-16 04:41:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5b613a82db2f0850d606e04a489619c3</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>htran96</sys_updated_by>
+            <sys_updated_on>2020-03-16 04:41:38</sys_updated_on>
+            <value>kingston</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>servicenow_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jakarta</label>
+            <language>en</language>
+            <name>x_424363_ski_eva_1_cert_acquisition</name>
+            <sequence>700</sequence>
+            <sys_created_by>htran96</sys_created_by>
+            <sys_created_on>2020-03-16 04:41:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f671ba82db2f0850d606e04a48961935</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>htran96</sys_updated_by>
+            <sys_updated_on>2020-03-16 04:41:57</sys_updated_on>
+            <value>jakarta</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>servicenow_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Istanbul</label>
+            <language>en</language>
+            <name>x_424363_ski_eva_1_cert_acquisition</name>
+            <sequence>800</sequence>
+            <sys_created_by>htran96</sys_created_by>
+            <sys_created_on>2020-03-16 04:42:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0381ba82db2f0850d606e04a4896194d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>htran96</sys_updated_by>
+            <sys_updated_on>2020-03-16 04:42:15</sys_updated_on>
+            <value>istanbul</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>servicenow_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Helsinki</label>
+            <language>en</language>
+            <name>x_424363_ski_eva_1_cert_acquisition</name>
+            <sequence>900</sequence>
+            <sys_created_by>htran96</sys_created_by>
+            <sys_created_on>2020-03-16 04:42:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b917e82db2f0850d606e04a48961941</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>htran96</sys_updated_by>
+            <sys_updated_on>2020-03-16 04:42:34</sys_updated_on>
+            <value>helsinki</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>servicenow_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Geneva</label>
+            <language>en</language>
+            <name>x_424363_ski_eva_1_cert_acquisition</name>
+            <sequence>1000</sequence>
+            <sys_created_by>htran96</sys_created_by>
+            <sys_created_on>2020-03-16 04:42:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d0b17a82db2f0850d606e04a48961998</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>htran96</sys_updated_by>
+            <sys_updated_on>2020-03-16 04:42:52</sys_updated_on>
+            <value>geneva</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>servicenow_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fuji</label>
+            <language>en</language>
+            <name>x_424363_ski_eva_1_cert_acquisition</name>
+            <sequence>1100</sequence>
+            <sys_created_by>htran96</sys_created_by>
+            <sys_created_on>2020-03-16 04:43:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1dc1fe82db2f0850d606e04a4896197e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>htran96</sys_updated_by>
+            <sys_updated_on>2020-03-16 04:46:51</sys_updated_on>
+            <value>fuji</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>servicenow_release</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Eureka</label>
+            <language>en</language>
+            <name>x_424363_ski_eva_1_cert_acquisition</name>
+            <sequence>1200</sequence>
+            <sys_created_by>htran96</sys_created_by>
+            <sys_created_on>2020-03-16 04:47:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9b92fac2db2f0850d606e04a489619ad</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>htran96</sys_updated_by>
+            <sys_updated_on>2020-03-16 04:47:17</sys_updated_on>
+            <value>eureka</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>servicenow_release</element>
+            <name>x_424363_ski_eva_1_cert_acquisition</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>htran96</sys_created_by>
+            <sys_created_on>2020-03-16 04:32:39</sys_created_on>
+            <sys_id>6c62168b2feb4010c109e83df699b675</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>servicenow_release</sys_name>
+            <sys_package display_value="Skill Evaluation" source="x_424363_ski_eva_1">f8037c7c072900101531f7108c1ed08f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Skill Evaluation">f8037c7c072900101531f7108c1ed08f</sys_scope>
+            <sys_update_name>sys_choice_x_424363_ski_eva_1_cert_acquisition_servicenow_release</sys_update_name>
+            <sys_updated_by>htran96</sys_updated_by>
+            <sys_updated_on>2020-03-16 04:32:39</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

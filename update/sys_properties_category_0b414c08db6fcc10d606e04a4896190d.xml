@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>Skill Evaluation Property</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>tngo44</sys_created_by>
+        <sys_created_on>2020-03-09 10:44:09</sys_created_on>
+        <sys_id>0b414c08db6fcc10d606e04a4896190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Skill Evaluation Property</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_424363_ski_eva_1">f8037c7c072900101531f7108c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">f8037c7c072900101531f7108c1ed08f</sys_scope>
+        <sys_update_name>sys_properties_category_0b414c08db6fcc10d606e04a4896190d</sys_update_name>
+        <sys_updated_by>tngo44</sys_updated_by>
+        <sys_updated_on>2020-03-09 10:44:09</sys_updated_on>
+        <title/>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=0b414c08db6fcc10d606e04a4896190d"/>
+</record_update>

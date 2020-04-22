@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>submission.approved</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+    if (current.state == '2')
+        email.setSubject('Submission ' + current.number + ' has been approved by PM');
+    else
+        email.setSubject('Submission ' + current.number + ' has been approved by COE');
+
+	template.print('<div>Hi,</div><br/>');
+	template.print('<div>Your submission has been approved.</div><br/>');
+	template.print('<div>Click here to view Submission: ${URI_REF}</div><br/>');
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>htruong20</sys_created_by>
+        <sys_created_on>2020-02-21 09:34:57</sys_created_on>
+        <sys_id>2b7ec8a2db4fc490d606e04a489619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>submission.approved</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_424363_ski_eva_1">f8037c7c072900101531f7108c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">f8037c7c072900101531f7108c1ed08f</sys_scope>
+        <sys_update_name>sys_script_email_2b7ec8a2db4fc490d606e04a489619c2</sys_update_name>
+        <sys_updated_by>htruong20</sys_updated_by>
+        <sys_updated_on>2020-02-21 09:34:57</sys_updated_on>
+    </sys_script_email>
+</record_update>

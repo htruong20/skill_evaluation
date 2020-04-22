@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Sys ID of group COE</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_424363_ski_eva_1.id_group_coe</name>
+        <read_roles>x_424363_ski_eva_1.se_admin</read_roles>
+        <suffix>id_group_coe</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>tngo44</sys_created_by>
+        <sys_created_on>2020-03-09 10:38:39</sys_created_on>
+        <sys_id>5600c4c4db6fcc10d606e04a4896192f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_424363_ski_eva_1.id_group_coe</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_424363_ski_eva_1">f8037c7c072900101531f7108c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">f8037c7c072900101531f7108c1ed08f</sys_scope>
+        <sys_update_name>sys_properties_5600c4c4db6fcc10d606e04a4896192f</sys_update_name>
+        <sys_updated_by>tngo44</sys_updated_by>
+        <sys_updated_on>2020-03-10 04:02:28</sys_updated_on>
+        <type>string</type>
+        <value>ed266a02db078490d606e04a489619d1</value>
+        <write_roles>x_424363_ski_eva_1.se_admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=5600c4c4db6fcc10d606e04a4896192f"/>
+</record_update>
